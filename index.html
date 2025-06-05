@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Garden Bloom Craft - Expert Gardening Services</title>
+<style>
+  :root {
+    --green-dark: #2a5d34;
+    --green-light: #76b041;
+    --beige-light: #f0f0e8;
+    --brown-dark: #5a3a1a;
+    --gray-dark: #444444;
+    --font-serif: 'Georgia', serif;
+    --font-sans: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    margin: 0;
+    background-color: var(--beige-light);
+    font-family: var(--font-sans);
+    color: var(--gray-dark);
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(45deg, var(--green-dark), var(--green-light));
+    color: white;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-family: var(--font-serif);
+    letter-spacing: 3px;
+  }
+  nav {
+    margin-top: 0.5rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: var(--beige-light);
+  }
+  main {
+    max-width: 980px;
+    margin: 2rem auto 4rem auto;
+    padding: 0 1rem;
+  }
+  section {
+    margin-bottom: 3rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(42, 93, 52, 0.15);
+  }
+  section h2 {
+    font-family: var(--font-serif);
+    color: var(--green-dark);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border-bottom: 3px solid var(--green-light);
+    padding-bottom: 0.3rem;
+  }
+  section p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  .service {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .service-item {
+    flex: 1 1 280px;
+    border: 1px solid var(--green-light);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    background: #fcfff7;
+    display: flex;
+    flex-direction: column;
+  }
+  .service-item img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+  }
+  .service-item h3 {
+    margin: 0 0 0.6rem 0;
+    color: var(--brown-dark);
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+  }
+  .price {
+    color: var(--green-dark);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: auto;
+  }
+  .disclaimer, .satisfaction {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.2rem;
+  }
+  footer {
+    background-color: var(--green-dark);
+    color: white;
+    text-align: center;
+    padding: 1.3rem 1rem;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+  }
+  footer p {
+    margin: 0.3rem 0;
+  }
+  @media(max-width: 600px) {
+    .service {
+      flex-direction: column;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Garden Bloom Craft</h1>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#disclaimer">Disclaimer</a>
+      <a href="#satisfaction">Customer Satisfaction</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">Welcome to Garden Bloom Craft</h2>
+      <p>
+        At Garden Bloom Craft, we believe a beautiful garden is the heart of any home. With over 15 years of experience, we provide expert gardening services that bring your outdoor spaces to life. From lush green lawns that invite barefoot strolls to flowering botanical havens that delight the senses, our passion is crafting personalized garden experiences that bloom all year round.
+      </p>
+      <p>
+        Our holistic approach draws inspiration from nature's rhythms and the art of horticulture. Whether you're a seasoned gardener seeking consultation or a property owner wanting a complete garden makeover, Garden Bloom Craft caters to all your needs with precision, creativity, and respect for the environment.
+      </p>
+      <p>
+        We serve residential and commercial clients, transforming spaces of every scale — from cozy backyard retreats to expansive estate landscapes. Our skilled team is dedicated to sustainable gardening practices, using eco-friendly techniques and native plants to foster resilient, vibrant gardens.
+      </p>
+      <p>
+        Choosing Garden Bloom Craft means choosing quality, reliability, and a deep commitment to your garden's ongoing health and beauty. Discover a different kind of gardening service — one that nurtures not just your plants, but your love of the outdoors itself.
+      </p>
+      <p>
+        Explore our range of services below and find the perfect fit for your garden dreams. We look forward to growing with you!
+      </p>
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80" alt="Beautiful blooming garden with colorful flowers" style="width:100%; border-radius:12px; margin-top:1rem;" />
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Gardening Services & Prices</h2>
+      <div class="service">
+        <article class="service-item" aria-label="Lawn Care Service">
+          <img src="https://images.unsplash.com/photo-1445510861631-59c22f969bc6?auto=format&fit=crop&w=600&q=80" alt="Fresh green lawn care" />
+          <h3>Lawn Care & Maintenance</h3>
+          <p>Keep your lawn lush, healthy, and weed-free with our expert mowing, fertilizing, aerating, and watering services tailored to your lawn's specific needs.</p>
+          <p class="price">Starting at $50 per visit</p>
+        </article>
+        <article class="service-item" aria-label="Garden Design Service">
+          <img src="https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=crop&w=600&q=80" alt="Garden design with plants and paths" />
+          <h3>Custom Garden Design</h3>
+          <p>Transform your outdoor space with a personalized garden design plan. We blend aesthetics and functionality to create your perfect haven.</p>
+          <p class="price">Consultation from $150, full design packages start at $800</p>
+        </article>
+        <article class="service-item" aria-label="Tree and Shrub Care Service">
+          <img src="https://images.unsplash.com/photo-1465414829459-d228b58caf7e?auto=format&fit=crop&w=600&q=80" alt="Tree trimming and shrub pruning" />
+          <h3>Tree & Shrub Care</h3>
+          <p>Healthy trees and shrubs require attentive care. We offer pruning, trimming, disease control, and seasonal maintenance to keep them thriving.</p>
+          <p class="price">Starting at $75 per session</p>
+        </article>
+        <article class="service-item" aria-label="Planting and Flower Bed Services">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80" alt="Flower bed with vibrant plants" />
+          <h3>Planting & Flower Beds</h3>
+          <p>Enhance your garden’s beauty with seasonal flowers and plants expertly arranged and cared for to flourish and brighten your landscape.</p>
+          <p class="price">Starting at $40 per planting bed</p>
+        </article>
+        <article class="service-item" aria-label="Irrigation System Installation">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Irrigation system installation" />
+          <h3>Irrigation System Installation</h3>
+          <p>Efficient and sustainable watering with irrigation system design, installation, and maintenance ensures your garden receives the optimal moisture.</p>
+          <p class="price">Installation from $500</p>
+        </article>
+        <article class="service-item" aria-label="Seasonal Cleanup Service">
+          <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=600&q=80" alt="Seasonal garden cleanup" />
+          <h3>Seasonal Cleanup</h3>
+          <p>Prepare your garden for spring and winter with thorough cleanup, leaf removal, mulching, and pruning services to promote healthy growth.</p>
+          <p class="price">Starting at $100 per visit</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="disclaimer" aria-labelledby="disclaimer-heading">
+      <h2 id="disclaimer-heading">Disclaimer</h2>
+      <p class="disclaimer">
+        Garden Bloom Craft strives to provide accurate and up-to-date information about our services and pricing. However, all pricing is subject to site evaluation and may vary depending on the size and complexity of your garden. Images and descriptions are for illustrative purposes and final results may vary according to natural conditions and client preferences.
+      </p>
+      <p class="disclaimer">
+        While we take extensive measures to ensure safe and environmentally friendly gardening practices, any work carried out by Garden Bloom Craft is at the client's discretion and risk. We recommend regular garden inspections and follow-up maintenance to maximize plant health and safety.
+      </p>
+    </section>
+
+    <section id="satisfaction" aria-labelledby="satisfaction-heading">
+      <h2 id="satisfaction-heading">Customer Satisfaction Commitment</h2>
+      <p class="satisfaction">
+        Customer satisfaction is at the heart of everything we do at Garden Bloom Craft. We believe in transparent communication, punctual service, and craftsmanship that exceeds your expectations. Our team listens to your ideas, offers expert advice, and collaborates closely to bring your gardening vision to life.
+      </p>
+      <p class="satisfaction">
+        If you are not completely satisfied with any service provided, please contact us immediately. We are committed to resolving any issues and ensuring your garden thrives beautifully under our care. Join our growing family of happy and loyal customers who trust Garden Bloom Craft for all their gardening needs.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Address:</strong> 123 Greenway Blvd, Floral City, FL 34785</p>
+    <p><strong>Phone:</strong> (555) 123-4567</p>
+    <p>&copy; 2024 Garden Bloom Craft. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
